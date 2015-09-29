@@ -1,0 +1,15 @@
+org 8000
+
+START:	mov a,a
+	lhld 800A
+	mov a,b
+1L:	mov a,a
+A:	mov c,b
+B:	mov a,b 
+C:	jmp D
+D:	mov a,a
+E:	jnz B
+F:	mov a,b
+G:	mov a,a
+H:	mov c,b
+J:	mov a,a
